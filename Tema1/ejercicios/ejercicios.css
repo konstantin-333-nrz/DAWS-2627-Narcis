@@ -11,4 +11,6 @@ hr{
 
 .ejercicio{
     box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap;
 }
