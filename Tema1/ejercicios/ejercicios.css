@@ -25,7 +25,7 @@ hr {
     align-items: center;
     text-align: center;
 
-    background-color: white;
+    background-color: gainsboro;
     border: 2px solid #555;
     border-radius: 12px;
     padding: 25px;
@@ -36,4 +36,14 @@ hr {
 /*Hago que al pasar el raton se reescale y pase a medir un 5% más*/
 .ejercicio:hover {
     transform: scale(1.05);
+}
+/*El grid template column es para que se repita de 3  en 3 para que aparezcan 
+exactamente 3 por filas en eso me apoye de la IA ya que no recorde como era*/
+.lista-ejercicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
