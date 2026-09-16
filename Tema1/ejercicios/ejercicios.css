@@ -28,8 +28,9 @@ hr {
     background-color: gainsboro;
     border: 2px solid #555;
     border-radius: 12px;
-    padding: 25px;
-    margin: 20px auto;
+    padding: 15px;
+    min-height: 40px ;
+    
 
 }
 
