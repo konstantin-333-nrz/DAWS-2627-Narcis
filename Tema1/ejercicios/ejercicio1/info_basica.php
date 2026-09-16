@@ -11,7 +11,9 @@
         $year= 2006;
     ?>
     <div>
-        <p>Hola me llamo <?php print $name;?> y nací el año <?php echo $year?></p>
+        <p style="color:green">
+            Hola me llamo <?php print $name;?> y nací el año <?php echo $year?>
+        </p>
     </div>
 </body>
 </html>
