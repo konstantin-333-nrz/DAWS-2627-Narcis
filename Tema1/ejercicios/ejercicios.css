@@ -40,7 +40,7 @@ hr {
 }
 /*El grid template column es para que se repita de 3  en 3 para que aparezcan 
 exactamente 3 por filas en eso me apoye de la IA ya que no recorde como era*/
-.lista-ejercicios {
+#lista-ejercicios {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
