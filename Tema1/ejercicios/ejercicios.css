@@ -1,3 +1,5 @@
+/*Titulo con estilo sencillo quiero que sea mas elegante que otra cosa*/
+
 #titulo-principal {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
@@ -5,10 +7,15 @@
     color: darkgrey;
 }
 
+/*Una linea para separar todo mejor y que quede mas visual*/
 hr {
     width: 50%;
     color: darkgray;
 }
+
+/*Pedí ayuda a la IA Para que me ayudase con el tema del estilo ya que no podía lograr que me quedase
+    como quería a parte de esto agrego cosas que yo seguidamente borre porque no eran de mi agrado
+    */
 
 .ejercicio {
     box-sizing: border-box;
@@ -23,12 +30,10 @@ hr {
     border-radius: 12px;
     padding: 25px;
     margin: 20px auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+/*Hago que al pasar el raton se reescale y pase a medir un 5% más*/
 .ejercicio:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
 }
