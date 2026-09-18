@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="info_basica.css">
 </head>
 <body>
+    <h1>Ejercicio 1 - Narcis Dragomir</h1>
     <?php
         $name = "Narcis Constantin Dragomir";
         $year= 2006;
