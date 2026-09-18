@@ -24,6 +24,9 @@
     <h2>Estudios</h2>
     <hr>
     <?= echo $$estudios; ?> 
+    <h2>Idiomas</h2>
+    <hr>
+    <?= echo $$texto_idiomas; ?> 
 
 </body>
 </html>
