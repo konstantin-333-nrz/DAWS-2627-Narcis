@@ -16,17 +16,17 @@
 
     $texto_idiomas_ro = "Vorbesc spaniolă, engleză și română.";
     $texto_idiomas_es = "Hablo espñol ingles y rumano";
-    $texto_idiomas_en = "I can talk in spanish english and romanian "
+    $texto_idiomas_en = "I can talk in spanish english and romanian";
 
     $estudios = "estudios_" . $idioma;
     $texto_idiomas = "texto_idiomas_" . $idioma;
     ?>
     <h2>Estudios</h2>
     <hr>
-    <?php echo $$estudios; ?> 
+    <?php echo $$estudios; ?>
     <h2>Idiomas</h2>
     <hr>
-    <?php echo $$texto_idiomas; ?> 
+    <?php echo $$texto_idiomas; ?>
 
 </body>
 </html>
