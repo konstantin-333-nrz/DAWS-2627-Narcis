@@ -70,4 +70,27 @@ Este es un ejercicio de prueba de funcionamiento del if , siguiendo una logica d
 ```
 En el codigo podemos ver las 2 variables llamadas nota1 y nota2 y mediante una variable auxiliar llamada mayor guardamos el mayor valor con una condicional.
 
-## **Ejercicio 6**
+## **Ejercicio 6 💯**
+Este ejercicio es igual que el anterior el cambio aqui esque agregamos una variable más llamada nota3 aqui deberemos hacer otra evaluación de la condición
+![alt text](image-5.png)
+
+```
+ <?php
+        $nota1=7.5;
+        $nota2=7.51;
+        $nota3=9.99;
+        $mayor;
+
+        if($nota1 > $nota2 && $nota1 > $nota3 ){
+            $mayor = $nota1;
+        }else if($nota2 > $nota1 && $nota2 > $nota3){
+            $mayor = $nota2;
+        }else{
+            $mayor = $nota3;
+        }
+
+    ?>
+```
+Aqui podemos ver el uso de else if 
+
+## **Ejercicio 7**
