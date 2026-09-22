@@ -34,4 +34,19 @@ Este es un ejercicio en el que podemos observar como se pueden crear constantes 
     echo $num3; --> Imprime 19 
 ?>
 ``` 
-La primera instrucción de echo que podemos ver en el fragmento de codigo imprimiria el numero 12 ya que en la variable $num1 vemos que se guarda el valor previo (3) multiplicado por 4
+*1* La primera instrucción de echo que podemos ver en el fragmento de codigo imprimiria el numero 12 ya que en la variable $num1 vemos que se guarda el valor previo (3) multiplicado por 4.
+
+*2* La segunda instrucción echo da como resultado false pero en php no imprime realmente nada ya que 12 no es mayor o igual a 5 
+
+*3* La tercera instrucción de echo al igual que la anterior valdrá false pero al igual que antes no imprime nada
+Con la puerta lógica de and unicamente con que una sea falsa la condición completa será false.
+
+*4* La cuarta instrucción de echo que podemos ver en el fragmento de codigo imprimiría 1 ya que en el caso de verdadero en php se imprime el número 1 en la puerta lógica de or es suficiente que una sea verdadera para que la condición sea totalmente verdadera en este caso la primera no lo es pero la segunda si
+
+*5* En la quinta instrucción del echo visualizamos que usa de puerta lógica XOR; que conlleva esto? que para que la condición sea verdadera tiene que haber una condicion falsa y otra verdadera. El resultado seria false ya que las 2 condiciónes previas son verdaderas.
+
+*6* En la sexta instrucción de echo lo que dice ahora esque va a imprimir el valor de la variable $num3. En la anterior instrucción le estamos restando 1 al valor original de $num3 y guardandola en la misma, así que imprimiría el numero 7
+
+*7* En la última instrucción de echo podemos ver que vuelve a imprimir el valor de $num3 pero en la instrucción de antes en este caso hace que en la variable se guarde su contenido mas el contenido de la variable $num1(12) así que el resultado de la impresión seria 19.
+
+## **Ejercicio 5**
