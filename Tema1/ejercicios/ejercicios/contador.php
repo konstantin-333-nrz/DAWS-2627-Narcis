@@ -9,7 +9,7 @@
     <?php
         
         for($cont = 1; $cont <= 100; $cont++){
-            echo $cont . ' ,';
+            echo $cont . ', ';
         }
     ?>
 </body>
