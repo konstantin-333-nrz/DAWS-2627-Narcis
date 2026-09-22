@@ -7,10 +7,15 @@
 </head>
 <body>
     <?php
-        
         for($cont = 1; $cont <= 100; $cont++){
-            echo $cont . ', ';
-        }
+     ?><h1><?php echo $cont . ', '; } ?></h1>
+
+    <?php
+        echo $cont;
+        while()
     ?>
+            
+        
+   
 </body>
 </html>
