@@ -49,7 +49,7 @@ Con la puerta lógica de and unicamente con que una sea falsa la condición comp
 
 *7* En la última instrucción de echo podemos ver que vuelve a imprimir el valor de $num3 pero en la instrucción de antes en este caso hace que en la variable se guarde su contenido mas el contenido de la variable $num1(12) así que el resultado de la impresión seria 19.
 
-## **Ejercicio 5**
+## **Ejercicio 5 💯**
 Este es un ejercicio de prueba de funcionamiento del if , siguiendo una logica de 2 notas y determina cual de ellas es la mayor nota. 
 ![alt text](image-4.png)
 
@@ -69,3 +69,5 @@ Este es un ejercicio de prueba de funcionamiento del if , siguiendo una logica d
 
 ```
 En el codigo podemos ver las 2 variables llamadas nota1 y nota2 y mediante una variable auxiliar llamada mayor guardamos el mayor valor con una condicional.
+
+## **Ejercicio 6**
