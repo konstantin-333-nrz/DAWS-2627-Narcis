@@ -12,7 +12,6 @@
 
     <?php
         echo $cont;
-        while()
     ?>
             
         
