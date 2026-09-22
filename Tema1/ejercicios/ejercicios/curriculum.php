@@ -4,6 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi curriculum</title>
+    <style>
+        body {
+            margin: 40px auto;
+            padding: 30px;
+            max-width: 700px;
+            background-color: #f4f4f4;
+            color: #202124;
+            font-family: Georgia, serif;
+            line-height: 1.6;
+        }
+
+        h1 {
+            margin-bottom: 35px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #202124;
+            font-family: Arial, sans-serif;
+            font-size: 36px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            margin-bottom: 8px;
+            color: #5f6368;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #d9d9d9;
+        }
+    </style>
 </head>
 <body>
     <h1>Curriculum Narcis</h1>
