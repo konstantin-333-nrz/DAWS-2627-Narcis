@@ -7,8 +7,10 @@
 </head>
 <body>
     <?php
-        for($cont = 1; $cont <= 100; $cont++){
-     ?><h1><?php echo $cont . ', '; } ?></h1>
+        for($cont = 1; $cont <= 100 ; $cont++){
+            echo <p>$cont</p>
+        }
+    ?>
 
     <?php
         echo $cont;
