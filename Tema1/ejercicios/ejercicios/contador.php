@@ -7,13 +7,18 @@
 </head>
 <body>
     <?php
-        for($cont = 1; $cont < 100 ; $cont++){
+        for($cont = 1; $cont <= 100 ; $cont++){
             echo $cont . ", ";
         }
     ?>
 
     <?php
-        echo $cont;
+        $cont=10;
+        while(cont >= 0){
+            echo $cont . "-";
+            $cont--;
+        }
+        
     ?>
             
         
