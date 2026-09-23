@@ -16,7 +16,7 @@
         hr {
             margin: 25px 0;
             border: 0;
-            border-top: 2px solid #3498db;
+            border-top: 2px solid gray;
         }
     </style>
 </head>
