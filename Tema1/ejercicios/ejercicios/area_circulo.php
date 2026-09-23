@@ -30,7 +30,7 @@
     </style>
 </head>
 <body>
-    //Imprime directamente el resultado
+    /*Imprime directamente el resultado*/
     <h1>El área del círculo con radio <?php echo $radio; ?> es <?php echo $area; ?></h1>
 </body>
 </html>
