@@ -6,6 +6,8 @@
     <title>Array 1</title>
 </head>
 <body>
-    //Aqui la logica del programa
+    <?php
+        
+    ?>
 </body>
 </html>

@@ -27,7 +27,6 @@
     </style>
 </head>
 <body>
-    /*Usando la logica del if para las notas*/
     <?php
         $nota1= 7.132;
         $nota2= 7.3;
