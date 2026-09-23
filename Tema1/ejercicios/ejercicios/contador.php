@@ -6,15 +6,17 @@
     <title>Contador</title>
 </head>
 <body>
+    //Logica de php con bucle for y while
     <?php
         for($cont = 1; $cont <= 100; $cont++){
      ?><h1><?php echo $cont . ', '; } ?></h1>
 
     <?php
-        echo $cont;
-    ?>
-            
-        
+        $cont=10;
+        while($cont >= 1){
+    ?><h1><?php echo $cont . '-'}?></h1>
+
+    
    
 </body>
 </html>

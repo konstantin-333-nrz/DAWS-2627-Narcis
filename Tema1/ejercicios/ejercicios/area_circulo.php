@@ -1,4 +1,5 @@
 <?php
+//Creación de la logica del ejercicio
     define('PI', 3.14159);
     $radio = 3.5;
     $area = PI * $radio * $radio;
@@ -29,6 +30,7 @@
     </style>
 </head>
 <body>
+    //Imprime directamente el resultado
     <h1>El área del círculo con radio <?php echo $radio; ?> es <?php echo $area; ?></h1>
 </body>
 </html>
