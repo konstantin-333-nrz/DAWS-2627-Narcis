@@ -21,12 +21,16 @@
     </style>
 </head>
 <body>
+    <h1>Este contador va del 1 al 100:
+    <br>
     <?php
         for($cont = 1; $cont <= 100 ; $cont++){
             echo $cont . ", ";
         }
     ?>
     <hr>
+    <br>
+    <h1>Este contador va del 10 al 0 :</h1>
     <?php
         $cont=10;
         while($cont >= 0){
