@@ -94,3 +94,7 @@ Este ejercicio es igual que el anterior el cambio aqui esque agregamos una varia
 Aqui podemos ver el uso de else if 
 
 ## **Ejercicio 7**
+Este ejercicio consta de un contador y el uso de la lógica de diferentes bucles como el for y el while para mostrar en la página el contador del 1 al 100 separado por comas usando un for y el otro consta de uno del 10 al 0 usando como separador un guión y haciendo uso del bucle while.
+
+![alt text](image-6.png)
+
