@@ -21,7 +21,7 @@
     </style>
 </head>
 <body>
-    <h1>Este contador va del 1 al 100:
+    <h1>Este contador va del 1 al 100:</h1>
     <br>
     <?php
         for($cont = 1; $cont <= 100 ; $cont++){
