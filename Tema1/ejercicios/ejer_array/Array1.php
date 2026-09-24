@@ -60,9 +60,9 @@
         
         <?php    
             $media = $suma/$i; 
-            echo "<h3>El mayor numero de la lista es ;" . $mayor  . "</h3>";
-            echo "<h3>El menor numero de la lista es ;" . $menor  . "</h3>";
-            echo "<h3>La media total de toda la lista es =" . $media  . "</h3>";
+            echo "<h3>El mayor numero de la lista es ; " . $mayor  . "</h3>";
+            echo "<h3>El menor numero de la lista es ; " . $menor  . "</h3>";
+            echo "<h3>La media total de toda la lista es = " . $media  . "</h3>";
         ?>  
    
             
