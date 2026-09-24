@@ -4,6 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Array 1</title>
+    <style>
+    body {
+          font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        color: #333;
+        max-width: 700px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+
+    li {
+        background-color: #ffffff;
+        border: 1px solid #3498db;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        color: #2980b9;
+        font-weight: bold;
+    }
+
+    h3 {
+        background-color: #3498db;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    </style>
 </head>
 <body>
     <?php
