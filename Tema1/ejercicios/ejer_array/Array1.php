@@ -18,7 +18,7 @@
 
             //Bucle de comprobación de que los numeros no sean repetidos
             for($i = 0; $i < count($array); $i++){
-                if($num_random == $array[i]){
+                if($num_random == $array[$i]){
                     $repetido = true;
                 }
             }
@@ -30,7 +30,7 @@
             }
         }
         //Borro las variables usadas anteriormente para que no haya problemas futuros
-        unset($i)
+        unset($i);
         unset($cont);
         //Ordeno el array como solicita el ejercicio
         sort($array);
@@ -40,27 +40,31 @@
         $menor=99;
         //Creo una variable acumuladora para la suma de la media
         $suma=0;
-
-        //Realización de un bucle para determinar el mayor el menor y la media del array
-        for($i = 0 ; $i< count($array); $i++){
+    ?> <ul>
+            <?php
+             //Realización de un bucle para determinar el mayor el menor y la media del array
+                 for($i = 0 ; $i< count($array); $i++){
             
-            if($array[$i] < $menor){
-                $menor = $array[$i];
-            }else if($array[$i] > $mayor){
-                $mayor = $array[$i];
-            }
-            $suma += $array[$i];
+                     if($array[$i] < $menor){
+                        $menor = $array[$i];
+                     }else if($array[$i] > $mayor){
+                        $mayor = $array[$i];
+                     }
+                    
+                     $suma += $array[$i];
 
-    ?>  
-    <ul>
-    <?php 
-        echo "<li>$array[$i]</li>" 
+                     echo "<li>$array[$i]</li>"
+                }
+            ?>
+        </ul>  
         
-        }
-        
-        $media = $suma/$i;
-    ?>
-    </ul>
+        <?php    
+            $media = $suma/$i; 
+            echo "<h3>El mayor numero de la lista es ;" . $mayor  . "</h3>"
+            echo "<h3>El menor numero de la lista es ;" . $menor  . "</h3>"
+            echo "<h3>La media total de toda la lista es =" . $media  . "</h3>"
+        ?>  
+   
             
 
         
