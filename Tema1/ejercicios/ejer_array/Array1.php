@@ -41,6 +41,7 @@
         //Creo una variable acumuladora para la suma de la media
         $suma=0;
 
+        //Realización de un bucle para determinar el mayor el menor y la media del array
         for($i = 0 ; $i< count($array); $i++){
             
             if($array[$i] < $menor){
@@ -54,7 +55,7 @@
 
         $media = $suma/$i;
 
-        
+
 
 
     ?>
