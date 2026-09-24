@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    //Declaro el array y el numero random que asigno a la primera posición
+       //Declaro el array y el numero random que asigno a la primera posición
         $array = array();
         $num_random = rand(0,99);
         $array[]= $num_random;
@@ -49,15 +49,23 @@
             }else if($array[$i] > $mayor){
                 $mayor = $array[$i];
             }
-
             $suma += $array[$i];
+
+    ?>  
+    <ul>
+    <?php 
+        echo "<li>$array[$i]</li>" 
+        
         }
-
+        
         $media = $suma/$i;
-
-
-
-
     ?>
+    </ul>
+            
+
+        
+
+       
+    
 </body>
 </html>
