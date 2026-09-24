@@ -98,3 +98,10 @@ Este ejercicio consta de un contador y el uso de la lógica de diferentes bucles
 
 ![alt text](image-6.png)
 
+
+
+# Ejercicios de Arrays 
+## Ejercicio 1
+En el siguiente ejercicio podemos ver una lista desordenada de numeros los cuales son numeros aleatorios del 0 al 99 los cuales no deben repetirse y abajo deberán mostrar el mayor el menor y la media de todos los numeros
+
+![alt text](image-7.png)
