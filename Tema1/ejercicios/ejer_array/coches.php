@@ -58,14 +58,14 @@
 
     ?>
     <table>
-        <th>
+        <thead>
             <tr>
-               <td>Matricula</td>
-               <td>Marca</td>
-               <td>Modelo</td>
-               <td>Puertas</td>
+               <th>Matricula</th>
+               <th>Marca</th>
+               <th>Modelo</th>
+               <th>Puertas</th>
             </tr>
-        <th>
+        <thead>
         <tbody>
             <?php foreach($matriculas as $matricula => $datos){ ?>
             <tr>
