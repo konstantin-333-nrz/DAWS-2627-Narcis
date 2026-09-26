@@ -65,7 +65,10 @@
     $estudios = "estudios_" . $idioma;
     $texto_idiomas = "texto_idiomas_" . $idioma;
     ?>
+    <h2>Perfil profesional</h2>
+    <hr>
     <?php echo $$perfil; ?>
+    <hr>
     <h2>Estudios</h2>
     <hr>
     <?php echo $$estudios; ?>
