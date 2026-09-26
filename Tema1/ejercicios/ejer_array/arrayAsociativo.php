@@ -7,58 +7,54 @@
     <style>
         body {
             margin: 0;
-            padding: 0;
-            background-image: linear-gradient(135deg, #020837 0%, #141940 25%, #0f0f17 100%);
-            color: #f2f2f2;
+            padding: 30px;
+            background-color: #f2f2f2;
+            color: #333;
             font-family: Arial, sans-serif;
         }
 
         .contenedor {
-            width: 90%;
-            max-width: 900px;
+            max-width: 700px;
             margin: 40px auto;
-            background: rgba(15, 23, 42, 0.8);
-            border: 1px solid rgba(94, 234, 212, 0.5);
-            border-radius: 18px;
-            box-shadow: 0 0 25px rgba(94, 234, 212, 0.15);
-            padding: 30px 25px;
+            padding: 30px;
+            background-color: #ffffff;
+            border: 1px solid #d1d1d1;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
         }
 
         h1 {
+            margin: 0;
             text-align: center;
-            margin: 0 0 15px 0;
-            color: #ffffff;
-            font-size: 2.5rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-shadow: 0 0 10px rgba(94, 234, 212, 0.8);
+            color: #444;
+            font-size: 2rem;
+            font-weight: normal;
         }
 
         hr {
             width: 80%;
+            margin: 20px auto;
             border: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #5eead4, transparent);
-            margin: 0 auto 25px auto;
+            border-top: 1px solid #cfcfcf;
         }
 
         .resultado {
             display: flex;
             justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            margin-top: 20px;
+            gap: 20px;
         }
 
         .resultado h2 {
-            background: rgba(30, 41, 59, 0.9);
-            border: 1px solid rgba(94, 234, 212, 0.4);
-            border-radius: 12px;
-            padding: 18px 25px;
+            min-width: 120px;
             margin: 0;
-            font-size: 1.3rem;
-            color: #e2e8f0;
-            box-shadow: 0 0 15px rgba(94, 234, 212, 0.1);
+            padding: 15px;
+            text-align: center;
+            background-color: #eeeeee;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            color: #555;
+            font-size: 1.2rem;
+            font-weight: normal;
         }
     </style>
 </head>
