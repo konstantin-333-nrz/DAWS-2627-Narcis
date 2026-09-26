@@ -36,6 +36,7 @@
                 <td><?php echo $datos[1];?></td>
                 <td><?php echo $datos[2];?><td>
             </tr>
+            <?php }?>
         </tbody>
     </table>
 </body>
