@@ -26,8 +26,7 @@
                 border-collapse: collapse;
             }
 
-            th,
-            td {
+            th,td {
                 padding: 12px;
                 text-align: left;
                 border: 1px solid #ccc;
@@ -72,7 +71,7 @@
                 <td><?php echo $matricula;?></td>
                 <td><?php echo $datos[0];?></td>
                 <td><?php echo $datos[1];?></td>
-                <td><?php echo $datos[2];?><td>
+                <td><?php echo $datos[2];?></td>
             </tr>
             <?php }?>
         </tbody>
