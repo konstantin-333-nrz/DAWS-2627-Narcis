@@ -65,6 +65,7 @@
     $estudios = "estudios_" . $idioma;
     $texto_idiomas = "texto_idiomas_" . $idioma;
     ?>
+    <?php echo $$perfil; ?>
     <h2>Estudios</h2>
     <hr>
     <?php echo $$estudios; ?>
