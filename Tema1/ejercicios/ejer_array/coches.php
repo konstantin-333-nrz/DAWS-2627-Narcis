@@ -26,7 +26,7 @@
                 border-collapse: collapse;
             }
 
-            th,td {
+            td {
                 padding: 12px;
                 text-align: left;
                 border: 1px solid #ccc;
