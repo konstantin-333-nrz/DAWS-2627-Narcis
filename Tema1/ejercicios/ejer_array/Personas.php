@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla de Personas</title>
+
     <style>
         body {
             margin: 0;
@@ -16,69 +17,66 @@
         h1 {
             text-align: center;
             color: #444;
-            font-size: 2rem;
             font-weight: normal;
         }
 
         table {
             width: 80%;
             margin: 20px auto;
+            background-color: white;
             border-collapse: collapse;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
         }
 
-        th, td {
+        th,
+        td {
             padding: 12px;
             text-align: left;
-            border-bottom: 1px solid #ddd;
+            border: 1px solid #ccc;
         }
 
         th {
-            background-color: #f4f4f4;
-            color: #555;
+            background-color: #ddd;
+            color: #444;
         }
 
-        tr:hover {
-            background-color: #f1f1f1;
+        tr:nth-child(even) {
+            background-color: #f8f8f8;
         }
+    </style>
 </head>
 <body>
     <?php
         $personas = [
             [
-                'nombre' => 'Narcis Dragomir', 
-                'altura' => '171 cm', 
+                'nombre' => 'Narcis Dragomir',
+                'altura' => '171 cm',
                 'email' => 'narcis.dragomir@ejemplo.com'
             ],
-
             [
                 'nombre' => 'Fiona Kral',
                 'altura' => '153 cm',
                 'email' => 'fiona.kral@ejemplo.com'
             ],
-
             [
                 'nombre' => 'Kivi Kral Dragomir',
                 'altura' => '25 cm',
                 'email' => 'kiwikrdra@ejemplo.com'
             ],
-
             [
                 'nombre' => 'Pipicas',
                 'altura' => '186 cm',
                 'email' => 'pipicas@ejemplo.com'
             ],
-
             [
                 'nombre' => 'Iuliana Carp',
                 'altura' => '155 cm',
                 'email' => 'iuliana.carp@ejemplo.com'
             ]
-        ]
-
+        ];
     ?>
 
     <h1>Tabla de Personas</h1>
+
     <table>
         <thead>
             <tr>
@@ -88,14 +86,14 @@
             </tr>
         </thead>
         <tbody>
-            <?php foreach($personas as $persona){?>
-            <tr>
-                <td><?php echo $persona['nombre']?></td>
-                <td><?php echo $persona['altura']?></td>
-                <td><?php echo $persona['email']?></td>
-            </tr>
-            <?php }?>
-
+            <?php foreach ($personas as $persona) { ?>
+                <tr>
+                    <td><?php echo $persona['nombre']; ?></td>
+                    <td><?php echo $persona['altura']; ?></td>
+                    <td><?php echo $persona['email']; ?></td>
+                </tr>
+            <?php } ?>
         </tbody>
+    </table>
 </body>
 </html>
