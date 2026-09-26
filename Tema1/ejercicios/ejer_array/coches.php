@@ -13,15 +13,30 @@
             "1011LSF" => array("Opel", "Astra", 5),
             "1235ANS" => array("Citroen", "C4", 5),
             "1111BDC" => array("Renault", "Clio", 3),
-            "2909GJN" => array("Citroen", "Berlingo")
+            "2909GJN" => array("Citroen", "Berlingo", 3)
         );
             
-        sort($matriculas);
-
-        foreach($matriculas as $matricula){
-            echo "<h1>" . $matricula . "</h1>";
-        }
+        ksort($matriculas);
 
     ?>
+    <table>
+        <thead>
+            <tr>
+               <td>Matricula</td>
+               <td>Marca</td>
+               <td>Modelo</td>
+               <td>Puertas</td>
+            </tr>
+        <thead>
+        <tbody>
+            <?php foreach($matriculas as $matricula => $datos){ ?>
+            <tr>
+                <td><?php echo $matricula;?></td>
+                <td><?php echo $datos[0];?></td>
+                <td><?php echo $datos[1];?></td>
+                <td><?php echo $datos[2];?><td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
