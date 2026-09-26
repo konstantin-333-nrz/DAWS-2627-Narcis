@@ -21,6 +21,7 @@
     </style>
 </head>
 <body>
+    <h1>Este contador va del 1 al 100 :</h1>
     <?php
         for($cont = 1; $cont <= 100 ; $cont++){
             echo $cont . ", ";
@@ -30,7 +31,11 @@
     <br>
     <h1>Este contador va del 10 al 0 :</h1>
     <?php
-        echo $cont;
+        $cont = 10;
+        while($cont >= 0){
+            echo $cont . "-";
+            $cont--;
+        }
     ?>
             
         
