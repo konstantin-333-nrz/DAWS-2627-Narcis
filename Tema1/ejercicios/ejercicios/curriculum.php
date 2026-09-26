@@ -57,8 +57,8 @@
 
     //Variables que guardan mi perfil profesional
     $perfil_es = "Estudiante de DAW con base en Java, desarrollo web, bases de datos y administración de sistemas Linux. Busco unas prácticas donde seguir aprendiendo.";
-    $perfil_ro = "DAW student with a background in Java, web development, databases, and Linux system administration. I am looking for an internship where I can continue learning.";
-    $perfil_en = "Student la programul DAW, cu experiență în Java, dezvoltare web, baze de date și administrarea sistemelor Linux. Caut un stagiu de practică în cadrul căruia să pot continua să învăț."
+    $perfil_en = "DAW student with a background in Java, web development, databases, and Linux system administration. I am looking for an internship where I can continue learning.";
+    $perfil_ro = "Student la programul DAW, cu experiență în Java, dezvoltare web, baze de date și administrarea sistemelor Linux. Caut un stagiu de practică în cadrul căruia să pot continua să învăț.";
 
 
     $perfil = "perfil_" . $idioma;
