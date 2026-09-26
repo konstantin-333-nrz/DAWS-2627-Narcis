@@ -4,6 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla de Personas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 30px;
+            background-color: #f2f2f2;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #444;
+            font-size: 2rem;
+            font-weight: normal;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            color: #555;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
 </head>
 <body>
     <?php
@@ -58,7 +95,7 @@
                 <td><?php echo $persona['email']?></td>
             </tr>
             <?php }?>
-            
+
         </tbody>
 </body>
 </html>
