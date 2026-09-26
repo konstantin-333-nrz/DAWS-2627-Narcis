@@ -33,7 +33,11 @@
     <?php
         $cont = 10;
         while($cont >= 0){
-            echo $cont . "-";
+            if($cont == 0){
+                echo $cont . " ";
+            }else{
+                echo $cont . "-";
+            }
             $cont--;
         }
     ?>
