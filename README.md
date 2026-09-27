@@ -2,16 +2,16 @@
 ## **Ejercicio 1 👋**
 Este es el ejercicio 1 que conta con un apartado para ver el nombre del creador del ejercicio practicando un saludo en php
 
-![alt text](image-1.png)
+![alt text](src/image-1.png)
 
 ## **Ejercicio 2 📝**
 Este es el ejercicio 2 que conta con un pequeño curriculum descriptivo con los idiomas que manejo y mis estudios de manera resumida.
 
-![alt text](image-2.png)
+![alt text](src/image-2.png)
 
 ## **Ejercicio 3 ⭕**
 Este es un ejercicio en el que podemos observar como se pueden crear constantes y operar con las mismas por ejemplo para calcular el área de una circunferencia.
-![alt text](image-3.png)
+![alt text](src/image-3.png)
 
 ## **Ejercicio 4 ❓**
 ```
@@ -51,7 +51,7 @@ Con la puerta lógica de and unicamente con que una sea falsa la condición comp
 
 ## **Ejercicio 5 💯**
 Este es un ejercicio de prueba de funcionamiento del if , siguiendo una logica de 2 notas y determina cual de ellas es la mayor nota. 
-![alt text](image-4.png)
+![alt text](src/image-4.png)
 
 ```
 <?php
@@ -72,7 +72,7 @@ En el codigo podemos ver las 2 variables llamadas nota1 y nota2 y mediante una v
 
 ## **Ejercicio 6 💯**
 Este ejercicio es igual que el anterior el cambio aqui esque agregamos una variable más llamada nota3 aqui deberemos hacer otra evaluación de la condición
-![alt text](image-5.png)
+![alt text](src/image-5.png)
 
 ```
  <?php
@@ -96,7 +96,7 @@ Aqui podemos ver el uso de else if
 ## **Ejercicio 7**
 Este ejercicio consta de un contador y el uso de la lógica de diferentes bucles como el for y el while para mostrar en la página el contador del 1 al 100 separado por comas usando un for y el otro consta de uno del 10 al 0 usando como separador un guión y haciendo uso del bucle while.
 
-![alt text](image-6.png)
+![alt text](src/image-6.png)
 
 
 
@@ -104,24 +104,24 @@ Este ejercicio consta de un contador y el uso de la lógica de diferentes bucles
 ## Ejercicio 1
 En el siguiente ejercicio podemos ver una lista desordenada de numeros los cuales son numeros aleatorios del 0 al 99 los cuales no deben repetirse y abajo deberán mostrar el mayor el menor y la media de todos los numeros
 
-![alt text](image-7.png)
+![alt text](src/image-7.png)
 
 ## Ejercicio 2 
 En el siguiente ejercicio podemos ver el uso de un array asociativo generando aleatoriamente cada vez un array de 100 posiciones con M y con F repartidas aleatoriamente por el array.
 
-![alt text](image-8.png)
+![alt text](src/image-8.png)
 
 ## Ejercicio 3
 En este ejercicio contamos con una tabla en la que podemos ver diferentes datos de personas guardadas en un array bidimensional asociadas con las claves de nombre altura y email. 
 
-![alt text](image-9.png)
+![alt text](src/image-9.png)
 
 ## Ejercicio 4
 En este ejercicio visualizamos una tabla similar, esta vez se trata de un array bidimensional asociativo al nombre de matricula a partir de ese dato muestra la marca modelo y cantidad de puertas de cada coche.
 
-![alt text](image-10.png)
+![alt text](src/image-10.png)
 
 ## Ejercicio 5
 En este ejercicio contamos con una tabla de 54 celdas en las que en cada una guardaremos un valor comprendido entre 100 y 999 los cuales no pueden ser duplicados la columna que cuente con el mayor numero de la tabla se pintara de color azul y la fila con el menor valor representable se pintara de verde todos los demas valores seran de color negro el fondo.
 
-![alt text](image-11.png)
+![alt text](src/image-11.png)
