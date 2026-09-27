@@ -1,6 +1,6 @@
 <?php 
     function cuenta($inicio, $fin){
-        for( $cont = $inicio; $cont < $fin ; $cont++){
+        for( $cont = $inicio; $cont <= $fin ; $cont++){
             echo "<h1>" . $cont . "</h1>";
         }
     }
