@@ -21,12 +21,12 @@
 
             h1 {
                 display: inline-block;
-                background-color: #4CAF50;
+                background-color: #444;
                 color: white;
                 padding: 10px 20px;
                 margin: 5px;
                 border-radius: 8px;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                
             }
         </style>
 </head>
