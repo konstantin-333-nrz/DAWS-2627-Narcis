@@ -1,5 +1,4 @@
 <?php
-<?php
     function intercambia(&$a, &$b){
         $aux = $a;
         $a = $b;
