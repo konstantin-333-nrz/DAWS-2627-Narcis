@@ -107,3 +107,21 @@ En el siguiente ejercicio podemos ver una lista desordenada de numeros los cuale
 ![alt text](image-7.png)
 
 ## Ejercicio 2 
+En el siguiente ejercicio podemos ver el uso de un array asociativo generando aleatoriamente cada vez un array de 100 posiciones con M y con F repartidas aleatoriamente por el array.
+
+![alt text](image-8.png)
+
+## Ejercicio 3
+En este ejercicio contamos con una tabla en la que podemos ver diferentes datos de personas guardadas en un array bidimensional asociadas con las claves de nombre altura y email. 
+
+![alt text](image-9.png)
+
+## Ejercicio 4
+En este ejercicio visualizamos una tabla similar, esta vez se trata de un array bidimensional asociativo al nombre de matricula a partir de ese dato muestra la marca modelo y cantidad de puertas de cada coche.
+
+![alt text](image-10.png)
+
+## Ejercicio 5
+En este ejercicio contamos con una tabla de 54 celdas en las que en cada una guardaremos un valor comprendido entre 100 y 999 los cuales no pueden ser duplicados la columna que cuente con el mayor numero de la tabla se pintara de color azul y la fila con el menor valor representable se pintara de verde todos los demas valores seran de color negro el fondo.
+
+![alt text](image-11.png)
