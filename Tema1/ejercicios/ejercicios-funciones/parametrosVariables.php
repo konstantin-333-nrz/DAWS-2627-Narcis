@@ -35,17 +35,6 @@
     </style>
 </head>
 <body>
-    <?php
-        $numeros_random = array();
-
-        for($i = 0 ; $i < 6; $i++){
-            $numeros_random[$i]=rand(0,999);
-        }
-
-        for($i = 0; $i<count($numeros_random); $i++){
-            echo "<h1>" . $numeros_random[$i] . "</h1>";
-        }
-    ?>
-    <p><?php echo "El mayor es :" . mayor($numeros_random);?></p>
+    <h1><?php echo "El mayor es :" . mayor(7,12,56,46,12,89);?></h1>
 </body>
 </html>
