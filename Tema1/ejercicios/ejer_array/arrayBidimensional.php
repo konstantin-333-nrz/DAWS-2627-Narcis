@@ -94,7 +94,7 @@
                         $color = "black";
                     }
 
-                    echo "<td style='color: " . $color . ";'>" . $valor . "</td>";
+                    echo "<td style='background-color: " . $color . ";'>" . $valor . "</td>";
                 }
             ?>
         </tr>
