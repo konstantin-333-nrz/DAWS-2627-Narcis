@@ -46,5 +46,6 @@
             echo "<h1>" . $numeros_random[$i] . "</h1>";
         }
     ?>
+    <p><?php echo "El mayor es :" . mayor($numeros_random);?></p>
 </body>
 </html>
