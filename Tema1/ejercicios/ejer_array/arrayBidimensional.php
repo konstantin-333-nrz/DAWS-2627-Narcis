@@ -11,16 +11,16 @@
         $numeros = array();
         define("FILAS", 6);
         define("COLUMNAS", 9);
-        $numeros_repetidos= array();
-        
-        for($i= 0; $i< FILAS ; i++){
-            for($j= 0; $j< COLUMNAS; j++){
+        $numeros_repetidos = array();
+
+        for($i = 0; $i < FILAS; $i++){
+            for($j = 0; $j < COLUMNAS; $j++){
                 do{
                     $numero_random = rand(100,999);
-                }while (isset($numeros_repetidos[$numero_random]))
+                }while (isset($numeros_repetidos[$numero_random]));
 
-                $numeros_repetidos[$numero_random]=true;
-                $array[$i][$j] = $numero_random;
+                $numeros_repetidos[$numero_random] = true;
+                $numeros[$i][$j] = $numero_random;
             }
         }
 
@@ -28,8 +28,8 @@
         $valorMin = $numeros[0][0];
         $filaMax = 0;
         $filaMin = 0;
-        $colMax=0;
-        $colMin=0;
+        $colMax = 0;
+        $colMin = 0;
 
         for($i = 0; $i < FILAS; $i++){
             for($j = 0; $j < COLUMNAS; $j++){
@@ -45,28 +45,28 @@
                     $colMin = $j;
                 }
             }
-        }    
+        }
     ?>
     <table>
-        <?php for($i = 0; $i < FILAS ; $i++){?>
+        <?php for($i = 0; $i < FILAS; $i++){ ?>
         <tr>
-            <?php 
-                for($j = 0 ; $j < COLUMNAS; $j++){
+            <?php
+                for($j = 0; $j < COLUMNAS; $j++){
                     $valor = $numeros[$i][$j];
 
                     if($j == $colMax){
                         $color = "blue";
-                    }elseif($i == $filaMin){
+                    } elseif($i == $filaMin){
                         $color = "green";
-                    }else{
-                        $color = "black"
+                    } else {
+                        $color = "black";
                     }
 
-                    echo "<td style='color: " . $color . ";'>" . $valor . "</td>"
+                    echo "<td style='color: " . $color . ";'>" . $valor . "</td>";
                 }
             ?>
         </tr>
-    <?php }?>
+        <?php } ?>
     </table>
 </body>
 </html>
