@@ -31,6 +31,6 @@
         </style>
 </head>
 <body>
-    <?php cuenta(1, 200)?>
+    <?php cuenta(10, 20)?>
 </body>
 </html>
