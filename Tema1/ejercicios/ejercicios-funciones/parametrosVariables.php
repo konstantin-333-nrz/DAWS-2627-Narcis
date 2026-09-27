@@ -7,6 +7,7 @@
                 $mayor= $num;
             }
         }
+        return $mayor;
     }
 ?>
 <!DOCTYPE html>
