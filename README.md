@@ -125,3 +125,11 @@ En este ejercicio visualizamos una tabla similar, esta vez se trata de un array 
 En este ejercicio contamos con una tabla de 54 celdas en las que en cada una guardaremos un valor comprendido entre 100 y 999 los cuales no pueden ser duplicados la columna que cuente con el mayor numero de la tabla se pintara de color azul y la fila con el menor valor representable se pintara de verde todos los demas valores seran de color negro el fondo.
 
 ![alt text](Tema1/ejercicios/src/image-11.png)
+
+
+
+
+
+
+# ** Ejercicios de Funciones **
+## Ejercicio 1
