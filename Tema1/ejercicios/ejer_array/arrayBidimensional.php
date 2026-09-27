@@ -27,6 +27,7 @@
             }
 
             td {
+                color: white;
                 padding: 12px;
                 text-align: center;
                 border: 1px solid #ccc;
