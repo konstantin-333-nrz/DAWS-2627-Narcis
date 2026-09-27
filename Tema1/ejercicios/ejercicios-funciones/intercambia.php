@@ -45,7 +45,7 @@
 
         .valor {
             font-weight: bold;
-            color: #007BFF;
+            color: #333;
         }
     </style>
 </head>
