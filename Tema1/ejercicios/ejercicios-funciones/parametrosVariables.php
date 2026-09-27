@@ -43,7 +43,7 @@
         }
 
         for($i = 0; $i<count($numeros_random); $i++){
-            echo "<h1>" . $numeros_random[$i] . "</h1>"
+            echo "<h1>" . $numeros_random[$i] . "</h1>";
         }
     ?>
 </body>
