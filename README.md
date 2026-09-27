@@ -131,5 +131,5 @@ En este ejercicio contamos con una tabla de 54 celdas en las que en cada una gua
 
 
 
-# ** Ejercicios de Funciones **
+# *Ejercicios de Funciones*
 ## Ejercicio 1
