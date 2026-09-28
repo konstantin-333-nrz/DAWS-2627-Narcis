@@ -6,8 +6,11 @@
     <title>HORA VALIDA</title>
 </head>
 <body>
-    <?php
-        $hora =
+    <?php include("funciones_hora.php")
+        $hora= "18:31:39";
+        if(esHoraValida($hora)){
+            echo "<h1>" . $hora . " es valida <h1>"
+        }
     ?>
 </body>
 </html>
