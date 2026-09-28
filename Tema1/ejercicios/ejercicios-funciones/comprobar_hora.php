@@ -13,7 +13,7 @@
         if(esHoraValida($hora)){
             echo "<h1>" . $hora . " es valida </h1>";
         }else{
-            print "LA HORA NO ES VALIDA";
+            print "<h1>LA HORA (" . $hora  . " )NO ES VALIDA</h1>";
         }
     ?>
 </body>
