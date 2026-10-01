@@ -8,14 +8,14 @@
     function digitoN(int $num, int $pos): int{
         return (int) strval($num)[$pos];
     }
-
+    //Quita digitos por detras de un número entero
     function quitaPorDetras(int $num, int $cant) : int{
         for($veces = 0 ; $veces < $cant; $veces++){
             $num = (int) $num / 10;
         }
         return  $num;
     }
-
+    //Quita digitos por delante de un número entero
     function quitaPorDelante(int $num, int $cant) : int{
         $numFinal=0;
         $cont = 1;
