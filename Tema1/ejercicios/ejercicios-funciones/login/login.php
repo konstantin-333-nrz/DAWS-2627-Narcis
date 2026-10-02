@@ -1,4 +1,4 @@
-
+<?php include "compruebaLogin.php";?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -118,6 +118,6 @@
     </div>
     <button class="button3">Forgot Password</button>
 </form>
-    <?php include "compruebaLogin.php"?>
+    
 </body>
 </html>
