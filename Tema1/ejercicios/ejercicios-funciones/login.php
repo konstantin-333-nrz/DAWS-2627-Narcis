@@ -97,7 +97,7 @@
 </head>
 <body>
     <!-- From Uiverse.io by Praashoo7 --> 
-<form class="form">
+<form class="form" method="post" action="login.php">
     <p id="heading">Login</p>
         <div class="field">
             <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -113,8 +113,8 @@
       <input name="contrasena" placeholder="Password" class="input-field" type="password">
     </div>
     <div class="btn">
-    <button class="button1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-    <button class="button2">Sign Up</button>
+    <button class="button1" type="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button class="button2" type="buttton">Sign Up</button>
     </div>
     <button class="button3">Forgot Password</button>
 </form>

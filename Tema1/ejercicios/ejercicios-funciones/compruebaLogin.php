@@ -7,7 +7,7 @@
     ];
 
     $username = $_POST["username"];
-    $password = $_POST["password"];
+    $password = $_POST["contrasena"];
 
     if (isset($users[$username]) && $users[$username] === $password){
         include "ok.php";
