@@ -1,4 +1,4 @@
-<?php include "fraseImpares.php"; ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,5 +13,6 @@
     <input name="frase" type="text"  placeholder="Introduce tu frase">
     <button type="submit">Pulsa aquí</button>
     </form>
+    <?php include "fraseImpares.php"; ?>
 </body>
 </html>
