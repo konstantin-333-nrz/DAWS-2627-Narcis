@@ -12,6 +12,6 @@
     <form method="post">
     <input name="frase" type="text"  placeholder="Introduce tu frase">
     <button type="submit">Pulsa aquí</button>
-    <form>
+    </form>
 </body>
 </html>

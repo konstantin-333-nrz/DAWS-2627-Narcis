@@ -8,7 +8,7 @@
         for($i = 0; $i<strlen($frase); $i++){
             
             if($i % 2  !== 0){
-                $nuevoString+=$frase[$i];
+                $nuevoString.=$frase[$i];
             }
         }
         return $nuevoString;
