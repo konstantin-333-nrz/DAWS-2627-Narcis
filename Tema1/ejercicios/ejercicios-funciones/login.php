@@ -97,7 +97,7 @@
 </head>
 <body>
     <!-- From Uiverse.io by Praashoo7 --> 
-<form class="form" method="post" action="login.php">
+<form class="form" method="post" action="compruebaLogin.php">
     <p id="heading">Login</p>
         <div class="field">
             <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
