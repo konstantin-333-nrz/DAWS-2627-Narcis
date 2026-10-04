@@ -7,7 +7,7 @@
 </head>
 <body>
    
-   <intput type="text" placeholder="Introduce tu frase" method="post">
+   <intput type="text" placeholder="Introduce tu frase" method="post" name="frase">
     <?php include("analizadorLogica.php");?>
 </body>
 </html>
