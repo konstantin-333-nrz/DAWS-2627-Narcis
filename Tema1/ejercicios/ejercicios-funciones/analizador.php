@@ -1,18 +1,19 @@
 <?php
+    $frase="Fiona es muy guapa y la quiero mucho";
 
-    $frase = "Fiona es muy guapa y la quiero mucho";
-    $palabrasTotales = 1;
-      if(isset($frase)){
+    $palabras = explode(" ", $frase);
+    $totalPalabras = count($palabras);
+    $totalLetras = 0;
 
-        for($i=0; $i<strlen($frase); $i++){
-            if($frase[$i] == " "){
-                $palabrasTotales++;
-            }
-        }
+    foreach($palabras as $palabra){
+        $tam= strlen($palabra);
+        $totalLetras += $tam;
+        print "<h2>Palabra: " . $palabra . " tiene un total de " . $tam . " letras </h2> <br>"
+    }
 
-        print "<h2> Hay un total de " . $palabrasTotales . " palabras en la frase </h2>";
-      }
-        
+    echo "<h2> La cantidad total de carácteres de la frase es ; " . $totalLetras .  " y cuenta con " . $totalPalabras .  " palabras </h2> <br>";
+     
+      
     
     
 
