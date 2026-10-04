@@ -6,6 +6,8 @@
     <title></title>
 </head>
 <body>
-   <?php include("analizadorLogica.php");?>
+   
+   <intput type="text" placeholder="Introduce tu frase" method="post">
+    <?php include("analizadorLogica.php");?>
 </body>
 </html>
