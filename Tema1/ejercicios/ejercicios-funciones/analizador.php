@@ -1,19 +1,18 @@
 <?php
+
     $frase = "Fiona es muy guapa y la quiero mucho";
-    $palabrasToltales = 0;
+    $palabrasTotales = 1;
+      if(isset($frase)){
 
-    trim($frase);
-
-    if(isset($frase)){
-
-        for($i=1; $i<strlen($frase); $i++){
+        for($i=0; $i<strlen($frase); $i++){
             if($frase[$i] == " "){
                 $palabrasTotales++;
             }
         }
-    }
 
-    print "<h2> Hay un total de " . $palabrasToltales . " palabras en la frase </h2>";
+        print "<h2> Hay un total de " . $palabrasTotales . " palabras en la frase </h2>";
+      }
+        
     
     
 
