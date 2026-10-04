@@ -1,5 +1,5 @@
 <?php
-    $frase=$_POST[frase];
+    $frase=$_POST["frase"];
 
     $palabras = explode(" ", $frase);
     $totalPalabras = count($palabras);
