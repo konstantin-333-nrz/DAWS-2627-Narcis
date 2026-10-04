@@ -6,8 +6,12 @@
     <title></title>
 </head>
 <body>
-   
-   <intput type="text" placeholder="Introduce tu frase" method="post" name="frase">
-    <?php include("analizadorLogica.php");?>
+   <form method = "post">
+
+   <input type="text" placeholder="Introduce tu frase" method="post" name="frase">
+   <button type="submit">Analizar</button> 
+   <?php include("analizadorLogica.php");?>
+    
+    </form>
 </body>
 </html>
