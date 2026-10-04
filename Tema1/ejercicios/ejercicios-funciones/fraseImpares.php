@@ -1,7 +1,7 @@
 <?php
     $frase = $_POST["frase"];
     
-    function fraseDeImpares(string $frase) : string
+    function fraseDeImpares(string $frase) : stringfrr
     {   
         $nuevoString="";
 
