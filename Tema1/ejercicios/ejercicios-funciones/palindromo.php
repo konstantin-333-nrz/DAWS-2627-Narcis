@@ -1,5 +1,5 @@
 <?php
-    function esPalindromo(string $frase) : boolean
+    function esPalindromo(string $frase) : bool
     {
         $frase= strtolower(str_replace(" ", "", $frase));
         $copiaFrase= "";
@@ -11,5 +11,5 @@
         return $copiaFrase === $frase;    
         
     }
-    
+
 ?>

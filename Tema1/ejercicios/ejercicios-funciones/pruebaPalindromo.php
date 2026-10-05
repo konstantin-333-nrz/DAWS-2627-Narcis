@@ -8,7 +8,7 @@
 <body>
     <?php
         include("palindromo.php");
-        $frase = "Anita lava la tina";
+        $frase = "Que tal";
         
         if(esPalindromo($frase))
         {
