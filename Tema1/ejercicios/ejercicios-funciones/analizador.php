@@ -65,7 +65,7 @@
 
    <input type="text" placeholder="Introduce tu frase" method="post" name="frase">
    <button type="submit">Analizar</button> 
-   <?php include("analizadorLogica.php");?>
+   <?php include("analizadorWC.php");?>
     
     </form>
 </body>
