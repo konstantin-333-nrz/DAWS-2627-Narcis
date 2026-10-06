@@ -1,6 +1,6 @@
 <?php
   $ruta = __DIR__ . "/casas_rurales.csv";
-  $fichero =fopen($ruta, "r");
+  $fichero = fopen($ruta, "r");
   $casasDescartadas=0;
   if(!$fichero){
     die("No se ha podido abrir el archivo");
